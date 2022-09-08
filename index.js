@@ -214,6 +214,7 @@ const tournette_orival_women_blue = new Tee(9).slope(56).rating9(23.9).par9(27).
 const remy = new Player().index(50).name("Remy").man();
 
 const round = remy.plays(tournette_american9_men_blue);
+//const round = new Round().with(remy).on(tournette_american9_men_blue);
 
 console.log(round.strokes(6, 10, 7, 3, 7, 6, 4, 6, 8));
 console.log(round.course_handicap());
